@@ -1,0 +1,23 @@
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1em 2.66em;
+
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+
+  background: none;
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+  transition: color 0.2s ease, background-color 0.2s ease;
+
+  &_red {
+    background: linear-gradient(180deg, #f42c2b 0%, rgba(0, 0, 0, 0) 100%),
+      #460d09;
+  }
+}
