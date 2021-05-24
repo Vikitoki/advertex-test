@@ -19,5 +19,15 @@
   &_red {
     background: linear-gradient(180deg, #f42c2b 0%, rgba(0, 0, 0, 0) 100%),
       #460d09;
+
+    @media (min-width: $md2 + px) {
+      &:hover {
+        background-color: #a51c1c;
+      }
+    }
+
+    &:active {
+      background-color: #6d1515;
+    }
   }
 }

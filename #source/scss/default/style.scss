@@ -9,7 +9,7 @@ $md4: 479.98;
 //</ПЕРЕМЕННЫЕ>
 
 // <ПОДКЛЮЧЕНИЕ ШРИФТОВ>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
 // </ПОДКЛЮЧЕНИЕ ШРИФТОВ>
 
 //<ШРИФТ ПО УМОЛЧАНИЮ>
@@ -45,10 +45,11 @@ $fontFamily: "Montserrat";
 //<ПОДКЛЮЧЕНИЕ СТРАНИЦ>
 
 // Index
-@import "../index/header.scss"; 
+@import "../index/header.scss";
+@import "../index/intro.scss";
 
 //<ПОДКЛЮЧЕНИЕ СТРАНИЦ>
 
 //<ПОДКЛЮЧЕНИЕ ОБЩИХ СТИЛЕЙ>
-@import "../common/buttons.scss"; 
+@import "../common/buttons.scss";
 //<ПОДКЛЮЧЕНИЕ ОБЩИХ СТИЛЕЙ>
